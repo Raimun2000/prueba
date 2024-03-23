@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestra Empresa</title>
+  <style>
+    body {
+      width: 79%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      -webkit-text-stroke: 1px rgb(121, 121, 121);
+      font-weight: 900;
+      font-size: 3em;
+      text-align: center;
+      background-color: rgb(13, 152, 155);
+      color: whitesmoke;
+      padding: 0.7em;
+      border-radius: 0.5em;
+    }
+  </style>
+  <!-- Datos estructurados para la página -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Nuestra Empresa",
+      "description": "Sitio web de nuestra empresa con información sobre productos y servicios."
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Nuestra Empresa</h1>
+
+  <!-- Datos estructurados para un servicio -->
+  <div itemscope itemtype="https://schema.org/Service">
+    <h2 itemprop="name">Servicio de Diseño Web</h2>
+    <p itemprop="description">Creamos sitios web modernos y atractivos para tu negocio.</p>
+    <!-- Otras propiedades del servicio -->
+  </div>
+
+  <!-- Datos estructurados para un producto -->
+  <div itemscope itemtype="https://schema.org/Product">
+    <h2 itemprop="name">Producto X</h2>
+    <p itemprop="description">Descripción del Producto X</p>
+    <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+      <p>
+        Precio: <span itemprop="price" content="19.99">$19.99</span>
+        <meta itemprop="priceCurrency" content="USD">
+      </p>
+    </div>
+    <!-- Otras propiedades del producto -->
+  </div>
+
+</body>
+
+</html>
