@@ -1,0 +1,57 @@
+.caja {
+      width: 85%;
+      margin: 0 auto;
+}
+
+.caja-full {
+      width: 99.9%;
+      margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      padding: 0.5em;
+      font-weight: normal;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+}
+
+.primario {
+      background-color:rgb(17, 17, 255);
+      color: whitesmoke;  
+      border-radius: 0.3em;  
+      margin: 0 auto;  
+      margin-top: 0.5em;
+}
+
+.alerta {
+      background-color:rgb(255, 164, 17);
+      color:rgb(18, 18, 18);
+      border-radius: 0.3em;  
+      margin: 0 auto;  
+      margin-top: 0.5em;
+}
+
+.peligro {
+      background-color:rgb(255, 49, 17);
+      color:rgb(238, 238, 238);
+      border-radius: 0.3em;  
+      margin: 0 auto;  
+      margin-top: 0.5em;
+}
+
+.informe {
+      background-color:rgb(21, 190, 182);
+      color:rgb(18, 18, 18);
+      border-radius: 0.3em;  
+      margin: 0 auto;  
+      margin-top: 0.5em;
+}
+
+.ok {
+      background-color:rgb(9, 120, 10);
+      color:rgb(232, 232, 232);
+      border-radius: 0.3em;  
+      margin: 0 auto;  
+      margin-top: 0.5em;
+}
+
